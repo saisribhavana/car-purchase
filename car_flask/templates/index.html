@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Background Image</title>
+    <style type="text/css">
+    body{
+        Background-image:url('carphoto1.jpeg');
+
+    }
+</style>
+</head>
+
+    <h1>
+
+        <center>
+            <form action="/predict"method="post">
+                <label for="Age">Age:</label><br>
+                <input type="text"id="Age"name="Age"placeholder="Age"required="required"/><br><br>
+                <label for="Annualsalary">Annualsalary:</label><br>
+                <input type="text"id="Annualsalary"name="Annualsalary"placeholder="Annualsalary"required="required"/><br><br>
+
+                <button type="submit" class="btn btn-primary btn-block">predict</button>
+                </form>
+                <br>
+        </center>
+            </h1>
+    <h2><b>{{y}}</b></h2>
+
+</body>
+</html>
+
+
